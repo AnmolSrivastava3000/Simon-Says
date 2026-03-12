@@ -1,0 +1,40 @@
+body {
+    text-align: center;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: white;
+    color: #333;
+}
+
+.btn {
+    height: 180px;
+    width: 180px;
+    border-radius: 20%;
+    border: 8px solid #222;
+    margin: 1rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 4rem;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    transition: transform 0.2s;
+}
+
+/* Permanent Grid Colors */
+#red { background-color: #d9534f; }
+#green { background-color: #5cb85c; }
+#orange { background-color: #f0ad4e; }
+#blue { background-color: #0275d8; }
+
+.flash {
+    background-color: #ffff00 !important; /* Yellow flash for high visibility */
+    transform: scale(1.1);
+    box-shadow: 0 0 25px rgba(0,0,0,0.2);
+}
+
+.userflash {
+    background-color: #333 !important;
+    transform: scale(0.9);
+}
