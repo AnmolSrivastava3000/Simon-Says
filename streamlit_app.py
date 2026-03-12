@@ -32,8 +32,6 @@ def load_game():
     """
     return full_code
 
-# Render the game
-# Increased height to 800 for better mobile clearance
 game_html = load_game()
 components.html(game_html, height=800, scrolling=False)
 
