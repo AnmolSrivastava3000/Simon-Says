@@ -1,5 +1,4 @@
 LIVE DEMO- https://simon-says-ja8e3xszpgo4ozpmsut36a.streamlit.app/ 
-
 How to Play
 Press "Tap to Start" or any key on your keyboard.
 Watch the sequence of colors and numbers.
